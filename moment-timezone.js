@@ -34,6 +34,10 @@
 	if (!moment || typeof moment.version !== 'string') {
 		logError('Moment Timezone requires Moment.js. See https://momentjs.com/timezone/docs/#/use-it/browser/');
 	}
+	
+	if (!moment.version) {
+		moment = moment.default;
+	}
 
 	var momentVersion = moment.version.split('.'),
 		major = +momentVersion[0],
