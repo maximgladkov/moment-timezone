@@ -2,7 +2,7 @@
 //! version : 0.5.21
 //! Copyright (c) JS Foundation and other contributors
 //! license : MIT
-//! github.com/moment/moment-timezone
+//! github.com/maximgladkov/moment-timezone
 
 (function (root, factory) {
 	"use strict";
